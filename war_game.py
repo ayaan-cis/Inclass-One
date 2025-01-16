@@ -102,26 +102,6 @@ class Deck:
         return result
 
 
-
-# A class which defines the Game of War.
-# The rules of war are as follows:
-	# 2 Players
-	# 1 Deck of cards (52 unique cards)
-	# Could change/expand the base datapoints
-	# Deal the cards
-	# Cycle of Play
-		# Round by round/turn by turn
-		# Each player draws a card, and presents it (c1 and c2)
-		# If c1 > c2, P1 wins, and gets both cards into their discard
-		# If c2 > c1, P2 wins, ...
-		# There is no possibility of tie (This will change)
-		# Play continues until no cards are in the hand (at the start, 26 rounds/turns will go by)
-		# shuffle the discard pile into the hand, and play continues
-	# Win Condition:
-		# Default is one of the players has all 52 cards
-		# We'll look at two possibilities:
-			# X Turns of have passed, the player with more cards wins
-			# Once a player has X number of cards total (hand + discard)
 class War_Game:
 
     # The init method. It defines both players and the deck.
